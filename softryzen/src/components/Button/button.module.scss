@@ -1,0 +1,22 @@
+@import "../../styles/default/variables";
+
+.button {
+    display: flex;
+    align-items: center;
+  width: 175px;
+  height: 57px;
+  border-radius: 5px;
+  padding: 16px 32px 16px 32px;
+  background-color: $btn-main-color;
+  border: none;
+  
+}
+.button span {
+   margin-left: 9px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: $main-font-color;
+}
