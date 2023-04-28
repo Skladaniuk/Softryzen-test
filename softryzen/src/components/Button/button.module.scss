@@ -1,18 +1,22 @@
 @import "../../styles/default/variables";
 
 .button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   width: 175px;
   height: 57px;
   border-radius: 5px;
   padding: 16px 32px 16px 32px;
   background-color: $btn-main-color;
   border: none;
-  
+
+  &:hover,
+  &:focus {
+    background-color: #2ebf4f;
+  }
 }
 .button span {
-   margin-left: 9px;
+  margin-left: 9px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;

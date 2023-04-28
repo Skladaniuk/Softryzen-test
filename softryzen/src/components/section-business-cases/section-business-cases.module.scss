@@ -1,0 +1,51 @@
+@import "../../styles/default/variables";
+
+
+.sectionCases{
+    width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.casesWrapper {
+    padding-top: 56px;
+    
+   
+  .title {
+    width: 159px;
+    margin-bottom: 16px;
+    margin-left: 71px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $secondary-text-color;
+  }
+  h2 {
+    width: 219px;
+    height: 88px;
+    margin-left: 31px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: $secondary-text-color;
+  }
+  .text{
+    display: block;
+    width: 207px;
+    height: 66px;
+    margin-top: 24px;
+    margin-left: 37px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $secondary-text-color;
+  }
+  
+}

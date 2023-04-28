@@ -1,0 +1,59 @@
+@import "../../styles/default/variables";
+
+.solutions {
+  width: 280px;
+  height: 483px;
+  padding-top: 79px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $btn-main-color;
+
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $main-font-color;
+  }
+  h2 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: $main-font-color;
+  }
+}
+
+.picture {
+  background-color: $btn-main-color;
+}
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $main-font-color;
+}
+.solutionButton{
+    width: 146px;
+    height: 54px;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: 1px solid $main-font-color;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $main-font-color;
+    &:hover,
+    &:focus{
+        background-color: $btn-accent-color;
+    }
+}
