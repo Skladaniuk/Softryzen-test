@@ -1,0 +1,16 @@
+@import "../../styles/default/variables";
+
+.callbackWrapper{
+    padding: 51px  25px 20px;
+    background-color: #F4F4F4;;
+    h2{
+        width: 280px;
+        margin-bottom: 69px;
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+color: $secondary-text-color;
+    }
+}

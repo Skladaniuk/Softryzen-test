@@ -1,5 +1,6 @@
 import scss from "./section-callback.module.scss";
 import { img } from "./img";
+import { CallbackForm } from "../Form/form";
 
 export const SectionCallback = () => {
   return (
@@ -21,25 +22,9 @@ export const SectionCallback = () => {
         </picture>
       </div>
       <div className={scss.callbackWrapper}>
-        <form
-          name="callback"
-          method="post"
-             
-        >
-          <input type="hidden" name="form-name" value="callback" />
-          <div>
-            <label>
-              <input type="text" name="name" />
-            </label>
-          </div>
-          <div>
-            <label>
-              <input type="email" name="email" />
-            </label>
-          </div>
-
-          <button type="submit">Send</button>
-        </form>
+          <h2>Request Callback</h2>
+          <CallbackForm />
+        
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ export const SectionHeader = () => {
         </a>
         <nav>
           <ul className={scss.navItems}>
-            <li className={scss.navItem}>afg</li>
+            <li className={scss.navItem}>Home</li>
             <li className={scss.navItem}>About</li>
             <li className={scss.navItem}>Cases</li>
             <li className={scss.navItem}>Blog</li>

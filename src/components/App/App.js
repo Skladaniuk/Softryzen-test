@@ -6,6 +6,7 @@ import { SectionBusinessCases } from '../section-business-cases/section-business
 import { SectionBlog } from '../section-blog/section-blog';
 import { SectionTeam } from '../section-team/section-team';
 import { SectionCallback } from '../section-callback/section-callback';
+import { SectionFooter } from '../section-footer/section-footer';
 function App() {
   return (
     <div className={scss.containerWrapper}>
@@ -18,7 +19,7 @@ function App() {
       <SectionBlog/>
       <SectionTeam />
       <SectionCallback/>
-     
+     <SectionFooter/>
     </div>
   );
 }
