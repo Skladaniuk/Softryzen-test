@@ -24,8 +24,7 @@ export const SectionCallback = () => {
         <form
           name="callback"
           method="post"
-                 
-                  
+             
         >
           <input type="hidden" name="form-name" value="callback" />
           <div>
