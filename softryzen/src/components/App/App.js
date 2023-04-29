@@ -3,7 +3,9 @@ import { SectionHero } from '../section-hero/section-hero';
 import { SectionHeader } from '../section-header/section-header';
 import { SectionSolution } from '../section-solution/section-solution';
 import { SectionBusinessCases } from '../section-business-cases/section-business-cases';
-
+import { SectionBlog } from '../section-blog/section-blog';
+import { SectionTeam } from '../section-team/section-team';
+import { SectionCallback } from '../section-callback/section-callback';
 function App() {
   return (
     <div className={scss.containerWrapper}>
@@ -12,7 +14,11 @@ function App() {
         <SectionHero />
       </div>
       <SectionSolution />
-      <SectionBusinessCases/>
+      <SectionBusinessCases />
+      <SectionBlog/>
+      <SectionTeam />
+      <SectionCallback/>
+     
     </div>
   );
 }

@@ -1,20 +1,18 @@
 @import "../../styles/default/variables";
 
+.sectionCases {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  padding-top: 56px;
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
 
-.sectionCases{
-    width: 280px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-.casesWrapper {
-    padding-top: 56px;
-    
-   
+
+
   .title {
-    width: 159px;
     margin-bottom: 16px;
-    margin-left: 71px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -24,9 +22,7 @@
   }
   h2 {
     width: 219px;
-    height: 88px;
     margin-left: 31px;
-    text-align: center;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -34,18 +30,21 @@
     line-height: 44px;
     color: $secondary-text-color;
   }
-  .text{
-    display: block;
-    width: 207px;
-    height: 66px;
+  .text {
     margin-top: 24px;
-    margin-left: 37px;
-    font-family: 'Open Sans';
+    margin-bottom: 31px;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: $secondary-text-color;
   }
-  
 }
+
+.imgItem:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+
+

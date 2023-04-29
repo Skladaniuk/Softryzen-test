@@ -32,6 +32,7 @@ import imgcases8webp from "../../images/cases/cases8.webp";
 import imgcases8webp2x from "../../images/cases/cases8@2x.webp";
 
 
+
 export const img = {
   imgcases1jpg,
   imgcases1jpg2x,

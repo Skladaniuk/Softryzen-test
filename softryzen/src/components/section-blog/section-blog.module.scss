@@ -1,0 +1,62 @@
+@import "../../styles/default/variables";
+
+
+.blogWrapper{
+    margin-top: 40px;
+}
+.post {
+    padding: 48px 20px 58px 20px;
+  background-color: $blog-main-color;
+  &__date {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $main-font-color;
+  }
+  
+  h2 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: $main-font-color;
+  }
+   &__description {
+    margin-bottom: 40px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $main-font-color;
+  }
+  button {
+    width: 172px;
+    height: 54px;
+    padding: 16px 31px 16px 32px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $main-font-color;
+    background-color: transparent;
+    border: 1px solid  $main-font-color;
+    border-radius: 5px;
+
+    &:hover,
+    &:focus{
+       background-color:  $main-font-color;
+       color: $blog-main-color;
+       border: 1px solid  $blog-main-color;
+    }
+  }
+}
+.pictureBlog{
+    background-color:$blog-main-color ;
+  }

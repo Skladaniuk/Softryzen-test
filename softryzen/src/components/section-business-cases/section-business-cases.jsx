@@ -13,7 +13,7 @@ export const SectionBusinessCases = () => {
         </p>
         <div className={scss.imgWrapper}>
           <ul>
-            <li>
+            <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source
                   srcSet={`${img.imgcases1webp} 1x, ${img.imgcases1webp2x} 2x `}
@@ -33,7 +33,7 @@ export const SectionBusinessCases = () => {
                 />
               </picture>
             </li>
-            <li>
+            <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source
                   srcSet={`${img.imgcases2webp} 1x, ${img.imgcases2webp2x} 2x `}
@@ -54,7 +54,7 @@ export const SectionBusinessCases = () => {
                 />
               </picture>
             </li>
-            <li>
+            <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source
                   srcSet={`${img.imgcases3webp} 1x, ${img.imgcases3webp2x} 2x `}
@@ -75,7 +75,7 @@ export const SectionBusinessCases = () => {
                 />
               </picture>
             </li>
-            <li>
+            <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source
                   srcSet={`${img.imgcases4webp} 1x, ${img.imgcases4webp2x} 2x `}
@@ -96,7 +96,7 @@ export const SectionBusinessCases = () => {
                 />
               </picture>
             </li>
-            <li>
+            <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source
                   srcSet={`${img.imgcases5webp} 1x, ${img.imgcases5webp2x} 2x `}
@@ -117,7 +117,7 @@ export const SectionBusinessCases = () => {
                 />
               </picture>
             </li>
-            <li>
+            <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source
                   srcSet={`${img.imgcases6webp} 1x, ${img.imgcases6webp2x} 2x `}
@@ -144,3 +144,6 @@ export const SectionBusinessCases = () => {
     </div>
   );
 };
+
+
+// 
