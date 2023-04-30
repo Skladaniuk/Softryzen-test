@@ -16,14 +16,18 @@ const initialValues = {
 
 export const CallbackForm = () => {
 
+    const handleSubmit = (values, {resetForm}) => {
+        console.log(values)
    
+    resetForm()
+    }
     return (
       <Formik
         initialValues={initialValues}
         validationSchema={schema}
-        onSubmit="submit"
+        onSubmit={handleSubmit}
       >
-        <Form name="callback" method="post" onSubmit="submit">
+        <Form name="callback" method="post" >
           <Field type="hidden" name="form-name" value="callback" />
           <div>
             <label>
