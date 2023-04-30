@@ -1,6 +1,8 @@
 import { img } from "./img";
 import scss from "./section-business-cases.module.scss";
 
+
+
 export const SectionBusinessCases = () => {
   return (
     <div className={scss.sectionCases}>
@@ -11,8 +13,8 @@ export const SectionBusinessCases = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           sapiente!
         </p>
-        <div className={scss.imgWrapper}>
-          <ul>
+        <div>
+          <ul className={scss.imgWrapper}>
             <li className={scss.imgItem}>
               <picture className={scss.picture}>
                 <source

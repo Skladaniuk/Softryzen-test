@@ -9,12 +9,18 @@
   padding-left: 8px;
   border: 1px solid #f5f5f5;
   border-radius: 5px;
+  @media screen and (min-width: 768px) {
+    width: 328px;
+  }
+  @media screen and (min-width: 1360px){
+    width: 634px;
+  }
 }
 
-button {
+.sendButton {
   width: 155px;
   height: 57px;
-  margin-top: 9px;
+  margin-top: 8px;
   background-color: $btn-main-color;
   color: $main-font-color;
   font-family: "Open Sans";
@@ -25,7 +31,7 @@ button {
   border-radius: 5px;
   border: none;
   &:hover,
-  &:focus{
+  &:focus {
     background-color: $btn-accent-color;
   }
 }
@@ -37,4 +43,9 @@ button {
   font-size: 16px;
   line-height: 23px;
   color: #808080;
+  @media screen and (min-width: 768px) {
+    width: 328px;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }

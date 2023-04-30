@@ -5,7 +5,7 @@ import { CallbackForm } from "../Form/form";
 export const SectionCallback = () => {
   return (
     <div className={scss.sectionCallback}>
-      <div>
+      <div className={scss.imgWrapper}>
         <picture>
           <source
             srcSet={`${img.contactwebp} 1x, ${img.contact2xwebp} 2x `}
@@ -18,7 +18,7 @@ export const SectionCallback = () => {
             width="320px"
           />
 
-          <img src={img.contactjpg} alt="contact" width="320px" />
+          <img src={img.contactjpg} alt="contact" width="320px" className={scss.picture} />
         </picture>
       </div>
       <div className={scss.callbackWrapper}>

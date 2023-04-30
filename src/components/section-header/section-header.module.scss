@@ -2,36 +2,51 @@
 
 .header {
   padding: 16px 32px 0px 32px;
-  
+  @media screen and (min-width: 768px) {
+    display: flex;
+    
+    
+  }
+   @media screen and (min-width: 1360px) {
+    padding: 32px 29px 0px 28px;
+  }
+
 }
 
 .navItems {
   display: flex;
+  @media screen and (min-width: 768px) {
+    margin-left: 73px;
+    margin-top: 12px;
+  }
+  @media screen and (min-width: 1360px) {
+    margin-left: 587px;
+    margin-top: 16px;
+  }
 }
 
 .logo {
   display: flex;
+  align-items: center;
+  align-items: center;
   margin-bottom: 16px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-  
+
   &:hover,
-  &:focus{
-    .finance{
-        color: $btn-accent-color;
-        font-size: 30px;
-    }
-    .logoIcon{
-        width: 43px;
-    
-        fill:$btn-accent-color;
-    }
-    .ledger{
-        color:$btn-accent-color;
-    }
+  &:focus {
+    transform: scale(1.03);
+    filter: brightness(1.1);
+  }
+  @media screen and (min-width: 768px) {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
   }
 }
 
@@ -39,6 +54,14 @@
   color: $btn-main-color;
   margin-left: 8px;
   margin-right: 8px;
+  @media screen and (min-width: 768px) {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+   @media screen and (min-width: 1360px) {
+    margin-left: 4px;
+    margin-top: 4px;
+  }
 }
 .ledger {
   color: $main-font-color;
@@ -46,24 +69,36 @@
 .navItem {
   font-family: "Open Sans";
   font-style: normal;
+  border-bottom: 3px #11ffee00 solid;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color:$main-font-color;
-  
+  color: $main-font-color;
+
   &:hover,
-  &:focus{
-    text-decoration: underline;
+  &:focus {
+    text-decoration: none;
+    border-bottom: 3px $btn-main-color solid;
     cursor: pointer;
+  }
+  @media screen and (min-width: 768px) {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 .navItem:not(:last-child) {
   margin-right: 8px;
+   @media screen and (min-width: 768px) {
+   margin-right: 20px;
+  }
+  @media screen and (min-width: 1360px) {
+    margin-right: 46px;
+  }
 }
 
-
-.logoIcon{
-    
-    fill: $btn-main-color;
-    
+.logoIcon {
+  fill: $btn-main-color;
 }

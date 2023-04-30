@@ -7,15 +7,20 @@
   padding-left: 20px;
   padding-right: 20px;
   background-color: $btn-main-color;
-
-  p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: $main-font-color;
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 527px;
+    padding-top: 62px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
+
+@media screen and (min-width: 1360px) {
+   width: 642px;
+   height: 294px;
+   padding: 80px 28px 86px 20px;
+  }
+
   h2 {
     margin-top: 16px;
     margin-bottom: 24px;
@@ -25,11 +30,31 @@
     font-size: 32px;
     line-height: 44px;
     color: $main-font-color;
+    @media screen and (min-width: 768px) {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    @media screen and (min-width: 1360px) {
+    width: 562px;
+  }
   }
 }
 
 .picture {
   background-color: $btn-main-color;
+  @media screen and (min-width: 768px) {
+    width: 368px;
+    height: 589px;
+    object-fit: cover;
+    background-color: #11ffee00;
+  }
+  @media screen and (min-width: 1360px) {
+    width: 670px;
+    height: 460px;
+  }
 }
 .text {
   font-family: "Open Sans";
@@ -38,22 +63,51 @@
   font-size: 16px;
   line-height: 22px;
   color: $main-font-color;
-}
-.solutionButton{
-    width: 146px;
-    height: 54px;
-    margin-top: 24px;
-    border-radius: 5px;
-    border: 1px solid $main-font-color;
-    background-color: transparent;
-    font-family: 'Open Sans';
+  @media screen and (min-width: 768px) {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: $main-font-color;
-    &:hover,
-    &:focus{
-        background-color: $btn-accent-color;
-    }
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+.solutionButton {
+  width: 146px;
+  height: 54px;
+  margin-top: 24px;
+  border-radius: 5px;
+  border: 1px solid $main-font-color;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $main-font-color;
+  &:hover,
+  &:focus {
+    background-color: $btn-accent-color;
+  }
+}
+
+.solutionWrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.tagline {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $main-font-color;
+  @media screen and (min-width: 768px) {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }

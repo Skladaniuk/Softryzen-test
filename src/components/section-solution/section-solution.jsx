@@ -7,7 +7,7 @@ import imgwebp2x from "../../images/home/people@2x.webp";
 
 export const SectionSolution = () => {
     return (
-      <div>
+      <div className={scss.solutionWrapper}>
         <div>
           <picture className={scss.picture}>
             <source
@@ -29,7 +29,7 @@ export const SectionSolution = () => {
           </picture>
         </div>
         <div className={scss.solutions}>
-          <p>What are you looking for</p>
+          <p className ={scss.tagline}>What are you looking for</p>
           <h2>We provide bespoke solutions</h2>
           <p className={scss.text}> 
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,

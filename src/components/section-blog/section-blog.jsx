@@ -32,7 +32,7 @@ export const SectionBlog = () => {
             harum illum dolore explicabo ab dolores itaque rerum temporibus
             doloribus iste maiores deleniti?
           </p>
-          <button type="button">Read Our Blog</button>
+          <button type="button" className={scss.blogButton}>Read Our Blog</button>
         </div>
       </div>
     );

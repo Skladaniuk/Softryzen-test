@@ -51,7 +51,7 @@ export const CallbackForm = () => {
             </label>
           </div>
 
-          <button type="submit">Send</button>
+          <button type="submit" className={scss.sendButton}>Send</button>
         </Form>
       </Formik>
     );
