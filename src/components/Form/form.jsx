@@ -28,7 +28,7 @@ export const CallbackForm = () => {
         onSubmit={handleSubmit}
       >
         <Form name="callback" method="post">
-          <Field type="hidden" name="form-name" value="callback" />
+          <input type="hidden" name="form-name" value="callback" />
           <div>
             <label>
               <Field
