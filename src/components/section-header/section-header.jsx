@@ -1,6 +1,10 @@
 import scss from "./section-header.module.scss";
 
+
+
 export const SectionHeader = () => {
+
+   
   return (
   
       <header className={scss.header}>
