@@ -25,7 +25,7 @@ export const CallbackForm = () => {
       <Formik
         initialValues={initialValues}
         validationSchema={schema}
-        onSubmit={handleSubmit()}
+        onSubmit={handleSubmit}
       >
         <Form name="callback" method="post" oSubmit="submit">
           <Field type="hidden" name="form-name" value="callback" />
