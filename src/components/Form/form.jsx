@@ -16,11 +16,7 @@ const initialValues = {
 
 export const CallbackForm = () => {
 
-    const handleSubmit = (values, {resetForm}) => {
-        console.log(values)
    
-    resetForm()
-    }
     return (
       <Formik
         initialValues={initialValues}
