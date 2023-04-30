@@ -27,7 +27,7 @@ export const CallbackForm = () => {
         validationSchema={schema}
         onSubmit={handleSubmit}
       >
-        <Form name="callback" method="post" onSubmit="submit">
+        <Form name="callback" method="post" >
           <Field type="hidden" name="form-name" value="callback" />
           <div>
             <label>
