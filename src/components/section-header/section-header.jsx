@@ -2,7 +2,7 @@ import scss from "./section-header.module.scss";
 
 export const SectionHeader = () => {
   return (
-    <div>
+  
       <header className={scss.header}>
         <a href="/" className={scss.logo}>
           <svg
@@ -26,7 +26,7 @@ export const SectionHeader = () => {
               </clipPath>
             </defs>
           </svg>
-          <span className={scss.finance}>Finance</span>{" "}
+          <span className={scss.finance}>Finance</span>
           <span className={scss.ledger}>Ledger</span>
         </a>
         <nav>
@@ -39,6 +39,6 @@ export const SectionHeader = () => {
           </ul>
         </nav>
       </header>
-    </div>
+   
   );
 };

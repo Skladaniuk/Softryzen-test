@@ -86,7 +86,8 @@
   color: $main-font-color;
   &:hover,
   &:focus {
-    background-color: $btn-accent-color;
+    background-color:$main-font-color;
+    color: $btn-main-color;
   }
 }
 
