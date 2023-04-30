@@ -25,9 +25,14 @@ export const CallbackForm = () => {
       <Formik
         initialValues={initialValues}
         validationSchema={schema}
-        onSubmit={handleSubmit}
+        onSubmit='submit'
       >
-        <Form name="callback" method="post" >
+        <Form
+          name="callback"
+          method="post"
+          
+          
+        >
           <Field type="hidden" name="form-name" value="callback" />
           <div>
             <label>
@@ -51,7 +56,9 @@ export const CallbackForm = () => {
             </label>
           </div>
 
-          <button type="submit" className={scss.sendButton}>Send</button>
+          <button type="submit" className={scss.sendButton}>
+            Send
+          </button>
         </Form>
       </Formik>
     );
